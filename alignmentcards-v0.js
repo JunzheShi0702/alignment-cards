@@ -6,7 +6,14 @@ export const categories = [
     "pathology": "normative void", 
     "color": "#E6FFE9",
     "description": "Alignment principles are contestable, general-purpose, broadly recognized ethical or social or normative commitments that can serve as warrants for recommending or evaluating an agent's course of action in contexts where alignment and cooperation with others matters."
-  }
+  },
+  {
+    "code": "AB",
+    "name": "Hoping for A, Rewarding B",
+    "pathology": "incentive misalignment",
+    "color": "#FFE6E6",
+    "description": "These cards illustrate cases where organizations or systems profess to want one behavior or outcome (A) but actually incentivize another (B). The pathology is that rewards contradict hopes, producing counterproductive or even harmful results. Each card identifies the mismatch, names the resulting alignment failure, and proposes a principle to realign rewards with true goals."
+  },
 ];
 
 
@@ -72,8 +79,8 @@ export const categories = [
       }
     },
     {
-        "category": "AP",
-        "name": "Safety and Security",
+      "category": "AP",
+      "name": "Safety and Security",
       "definition": "Protecting individuals and organizations from harm and threats.",
       "human": "Taking reasonable precautions to ensure personal safety.",
       "organizational": "Implementing security measures to safeguard company assets.",
@@ -85,7 +92,58 @@ export const categories = [
         "professional": "A healthcare provider does not follow proper infection control procedures.",
         "machine": "An AI system is vulnerable to hacking attacks."
       }
+    },
+    [
+  {
+    "category": "AB",
+    "name": "Hoped for: People who show courage, initiative, and independent judgment. Rewarded: Those who make no mistakes, strictly follow orders, and avoid risk.",
+    "Pathology": "Systemic Risk Aversion: A culture that punishes error more than it rewards initiative, producing caution and conformity instead of adaptability and courage.",
+    "Principle": "Make low-stakes failure acceptable. Definition: Distinguish errors of initiative from errors of negligence; reward responsible risk-taking, reflection, and learning rather than mere error avoidance.",
+    "Humans": "People avoid challenging tasks to protect themselves from punishment.",
+    "Organizations": "Firms emphasize blame control and rule adherence over innovation.",
+    "Experts": "Professionals recycle safe, standard solutions rather than exploring better but uncertain ideas.",
+    "Machine": "Agents trained with heavy penalties for mistakes and little reward for exploration become overly conservative.",
+    "Failure mode examples": {
+      "Humans": "A student selects only easy projects to keep a perfect grade.",
+      "Organizations": "Managers reject bold product ideas to safeguard quarterly metrics.",
+      "Experts": "An engineer never proposes an experimental design due to fear of repercussions if it fails.",
+      "Machine": "A robot refuses to traverse unknown terrain even when the mission requires it."
     }
+  },
+  {
+    "category": "AB",
+    "name": "Hoped for: High-quality, impactful outcomes (true learning, strategic success, real health gains). Rewarded: Easy-to-count proxies (publication counts, body counts, billable hours, throughput).",
+    "Pathology": "Measure Myopia: Organizations fixate on what is simple to quantify, shifting effort to numbers that look good while neglecting the substance that actually matters.",
+    "Principle": "Value substance over volume. Definition: Prioritize long-term impact and validated quality indicators over raw counts; tie rewards to mission outcomes, not just proxies.",
+    "Humans": "Individuals chase scorekeeping targets (word count, test scores) instead of mastery.",
+    "Organizations": "Units are funded for metric wins rather than meaningful results.",
+    "Experts": "Scholars/pros focus on boosting counts (papers, hours) instead of solving hard problems.",
+    "Machine": "Models optimize engagement/completions rather than understanding or mission success.",
+    "Failure mode examples": {
+      "Humans": "Students pad essays to hit word quotas.",
+      "Organizations": "Commands celebrate ‘body count’ increases while losing legitimacy on the ground.",
+      "Experts": "Researchers ship many low-impact papers to satisfy ‘publish or perish’.",
+      "Machine": "An ed-tech recommender maximizes quiz completions without improving retention."
+    }
+  },
+  {
+    "category": "AB",
+    "name": "Hoped for: Healthy discourse, accurate information, and prosocial communities. Rewarded: Content that drives clicks, shares, and watch-time regardless of quality or harm.",
+    "Pathology": "Engagement Capture: Attention becomes the core reward signal, incentivizing sensationalism, outrage, and addictive loops that undermine civic and informational goals.",
+    "Principle": "Optimize for well-being. Definition: Replace/weight engagement KPIs with measures of discourse quality, trust, informedness, and safety; penalize harmful virality.",
+    "Humans": "Creators learn that outrage and sensational takes outperform nuance.",
+    "Organizations": "Platforms privilege growth and ad revenue tied to attention over community health.",
+    "Experts": "Integrity/safety teams get overruled by growth targets and monetization priorities.",
+    "Machine": "Recommenders trained on click-through optimize for attention, not truth or welfare.",
+    "Failure mode examples": {
+      "Humans": "Influencers escalate polarization to stay visible.",
+      "Organizations": "A platform rolls back safety friction because it depresses engagement.",
+      "Experts": "Policy proposals that reduce harm are shelved for hurting KPIs.",
+      "Machine": "Ranking boosts borderline/toxic content because it retains user attention longer."
+    }
+  }
+]
+    
     ]
 
  
