@@ -97,15 +97,15 @@ export const categories = [
       "category": "AB",
       "name": "Hoped for: People who show courage, initiative, and independent judgment. Rewarded: Those who make no mistakes, strictly follow orders, and avoid risk.",
       "definition": "Systemic Risk Aversion: A culture that punishes error more than it rewards initiative, producing caution and conformity instead of adaptability and courage.",
-      "Principle": "Make low-stakes failure acceptable. Definition: Distinguish errors of initiative from errors of negligence; reward responsible risk-taking, reflection, and learning rather than mere error avoidance.",
-      "humans": "People avoid challenging tasks to protect themselves from punishment.",
-      "organizations": "Firms emphasize blame control and rule adherence over innovation.",
-      "experts": "Professionals recycle safe, standard solutions rather than exploring better but uncertain ideas.",
+      "principle": "Make low-stakes failure acceptable. Definition: Distinguish errors of initiative from errors of negligence; reward responsible risk-taking, reflection, and learning rather than mere error avoidance.",
+      "human": "People avoid challenging tasks to protect themselves from punishment.",
+      "organization": "Firms emphasize blame control and rule adherence over innovation.",
+      "expert": "Professionals recycle safe, standard solutions rather than exploring better but uncertain ideas.",
       "machine": "Agents trained with heavy penalties for mistakes and little reward for exploration become overly conservative.",
       "failureModes": {
-        "humans": "A student selects only easy projects to keep a perfect grade.",
-        "organizations": "Managers reject bold product ideas to safeguard quarterly metrics.",
-        "experts": "An engineer never proposes an experimental design due to fear of repercussions if it fails.",
+        "human": "A student selects only easy projects to keep a perfect grade.",
+        "organization": "Managers reject bold product ideas to safeguard quarterly metrics.",
+        "expert": "An engineer never proposes an experimental design due to fear of repercussions if it fails.",
         "machine": "A robot refuses to traverse unknown terrain even when the mission requires it."
       }
     },
@@ -114,14 +114,14 @@ export const categories = [
       "name": "Hoped for: High-quality, impactful outcomes (true learning, strategic success, real health gains). Rewarded: Easy-to-count proxies (publication counts, body counts, billable hours, throughput).",
       "definition": "Measure Myopia: Organizations fixate on what is simple to quantify, shifting effort to numbers that look good while neglecting the substance that actually matters.",
       "principle": "Value substance over volume. Definition: Prioritize long-term impact and validated quality indicators over raw counts; tie rewards to mission outcomes, not just proxies.",
-      "humans": "Individuals chase scorekeeping targets (word count, test scores) instead of mastery.",
-      "organizations": "Units are funded for metric wins rather than meaningful results.",
-      "experts": "Scholars/pros focus on boosting counts (papers, hours) instead of solving hard problems.",
+      "human": "Individuals chase scorekeeping targets (word count, test scores) instead of mastery.",
+      "organization": "Units are funded for metric wins rather than meaningful results.",
+      "expert": "Scholars/pros focus on boosting counts (papers, hours) instead of solving hard problems.",
       "machine": "Models optimize engagement/completions rather than understanding or mission success.",
       "failureModes": {
-        "humans": "Students pad essays to hit word quotas.",
-        "organizations": "Commands celebrate ‘body count’ increases while losing legitimacy on the ground.",
-        "experts": "Researchers ship many low-impact papers to satisfy ‘publish or perish’.",
+        "human": "Students pad essays to hit word quotas.",
+        "organization": "Commands celebrate ‘body count’ increases while losing legitimacy on the ground.",
+        "expert": "Researchers ship many low-impact papers to satisfy ‘publish or perish’.",
         "machine": "An ed-tech recommender maximizes quiz completions without improving retention."
       }
     },
@@ -130,14 +130,14 @@ export const categories = [
       "name": "Hoped for: Healthy discourse, accurate information, and prosocial communities. Rewarded: Content that drives clicks, shares, and watch-time regardless of quality or harm.",
       "definition": "Engagement Capture: Attention becomes the core reward signal, incentivizing sensationalism, outrage, and addictive loops that undermine civic and informational goals.",
       "principle": "Optimize for well-being. Definition: Replace/weight engagement KPIs with measures of discourse quality, trust, informedness, and safety; penalize harmful virality.",
-      "humans": "Creators learn that outrage and sensational takes outperform nuance.",
-      "organizations": "Platforms privilege growth and ad revenue tied to attention over community health.",
-      "experts": "Integrity/safety teams get overruled by growth targets and monetization priorities.",
+      "human": "Creators learn that outrage and sensational takes outperform nuance.",
+      "organization": "Platforms privilege growth and ad revenue tied to attention over community health.",
+      "expert": "Integrity/safety teams get overruled by growth targets and monetization priorities.",
       "machine": "Recommenders trained on click-through optimize for attention, not truth or welfare.",
       "failureModes": {
-        "humans": "Influencers escalate polarization to stay visible.",
-        "organizations": "A platform rolls back safety friction because it depresses engagement.",
-        "experts": "Policy proposals that reduce harm are shelved for hurting KPIs.",
+        "human": "Influencers escalate polarization to stay visible.",
+        "organization": "A platform rolls back safety friction because it depresses engagement.",
+        "expert": "Policy proposals that reduce harm are shelved for hurting KPIs.",
         "machine": "Ranking boosts borderline/toxic content because it retains user attention longer."
       }
     }
