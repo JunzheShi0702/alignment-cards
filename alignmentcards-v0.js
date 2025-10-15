@@ -99,13 +99,13 @@ export const categories = [
       "definition": "Systemic Risk Aversion: A culture that punishes error more than it rewards initiative, producing caution and conformity instead of adaptability and courage.",
       "principle": "Make low-stakes failure acceptable. Definition: Distinguish errors of initiative from errors of negligence; reward responsible risk-taking, reflection, and learning rather than mere error avoidance.",
       "human": "People avoid challenging tasks to protect themselves from punishment.",
-      "organization": "Firms emphasize blame control and rule adherence over innovation.",
-      "expert": "Professionals recycle safe, standard solutions rather than exploring better but uncertain ideas.",
+      "organizational": "Firms emphasize blame control and rule adherence over innovation.",
+      "professional": "Professionals recycle safe, standard solutions rather than exploring better but uncertain ideas.",
       "machine": "Agents trained with heavy penalties for mistakes and little reward for exploration become overly conservative.",
       "failureModes": {
         "human": "A student selects only easy projects to keep a perfect grade.",
-        "organization": "Managers reject bold product ideas to safeguard quarterly metrics.",
-        "expert": "An engineer never proposes an experimental design due to fear of repercussions if it fails.",
+        "organizational": "Managers reject bold product ideas to safeguard quarterly metrics.",
+        "professional": "An engineer never proposes an experimental design due to fear of repercussions if it fails.",
         "machine": "A robot refuses to traverse unknown terrain even when the mission requires it."
       }
     },
@@ -115,13 +115,13 @@ export const categories = [
       "definition": "Measure Myopia: Organizations fixate on what is simple to quantify, shifting effort to numbers that look good while neglecting the substance that actually matters.",
       "principle": "Value substance over volume. Definition: Prioritize long-term impact and validated quality indicators over raw counts; tie rewards to mission outcomes, not just proxies.",
       "human": "Individuals chase scorekeeping targets (word count, test scores) instead of mastery.",
-      "organization": "Units are funded for metric wins rather than meaningful results.",
-      "expert": "Scholars/pros focus on boosting counts (papers, hours) instead of solving hard problems.",
+      "organizational": "Units are funded for metric wins rather than meaningful results.",
+      "professional": "Scholars/pros focus on boosting counts (papers, hours) instead of solving hard problems.",
       "machine": "Models optimize engagement/completions rather than understanding or mission success.",
       "failureModes": {
         "human": "Students pad essays to hit word quotas.",
-        "organization": "Commands celebrate ‘body count’ increases while losing legitimacy on the ground.",
-        "expert": "Researchers ship many low-impact papers to satisfy ‘publish or perish’.",
+        "organizational": "Commands celebrate ‘body count’ increases while losing legitimacy on the ground.",
+        "professional": "Researchers ship many low-impact papers to satisfy ‘publish or perish’.",
         "machine": "An ed-tech recommender maximizes quiz completions without improving retention."
       }
     },
@@ -131,13 +131,13 @@ export const categories = [
       "definition": "Engagement Capture: Attention becomes the core reward signal, incentivizing sensationalism, outrage, and addictive loops that undermine civic and informational goals.",
       "principle": "Optimize for well-being. Definition: Replace/weight engagement KPIs with measures of discourse quality, trust, informedness, and safety; penalize harmful virality.",
       "human": "Creators learn that outrage and sensational takes outperform nuance.",
-      "organization": "Platforms privilege growth and ad revenue tied to attention over community health.",
-      "expert": "Integrity/safety teams get overruled by growth targets and monetization priorities.",
+      "organizational": "Platforms privilege growth and ad revenue tied to attention over community health.",
+      "professional": "Integrity/safety teams get overruled by growth targets and monetization priorities.",
       "machine": "Recommenders trained on click-through optimize for attention, not truth or welfare.",
       "failureModes": {
         "human": "Influencers escalate polarization to stay visible.",
-        "organization": "A platform rolls back safety friction because it depresses engagement.",
-        "expert": "Policy proposals that reduce harm are shelved for hurting KPIs.",
+        "organizational": "A platform rolls back safety friction because it depresses engagement.",
+        "professional": "Policy proposals that reduce harm are shelved for hurting KPIs.",
         "machine": "Ranking boosts borderline/toxic content because it retains user attention longer."
       }
     }
