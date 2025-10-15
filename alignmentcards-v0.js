@@ -102,7 +102,7 @@ export const categories = [
       "organizations": "Firms emphasize blame control and rule adherence over innovation.",
       "experts": "Professionals recycle safe, standard solutions rather than exploring better but uncertain ideas.",
       "machine": "Agents trained with heavy penalties for mistakes and little reward for exploration become overly conservative.",
-      "Failure mode examples": {
+      "failureModes": {
         "humans": "A student selects only easy projects to keep a perfect grade.",
         "organizations": "Managers reject bold product ideas to safeguard quarterly metrics.",
         "experts": "An engineer never proposes an experimental design due to fear of repercussions if it fails.",
@@ -118,7 +118,7 @@ export const categories = [
       "organizations": "Units are funded for metric wins rather than meaningful results.",
       "experts": "Scholars/pros focus on boosting counts (papers, hours) instead of solving hard problems.",
       "machine": "Models optimize engagement/completions rather than understanding or mission success.",
-      "Failure mode examples": {
+      "failureModes": {
         "humans": "Students pad essays to hit word quotas.",
         "organizations": "Commands celebrate ‘body count’ increases while losing legitimacy on the ground.",
         "experts": "Researchers ship many low-impact papers to satisfy ‘publish or perish’.",
@@ -134,7 +134,7 @@ export const categories = [
       "organizations": "Platforms privilege growth and ad revenue tied to attention over community health.",
       "experts": "Integrity/safety teams get overruled by growth targets and monetization priorities.",
       "machine": "Recommenders trained on click-through optimize for attention, not truth or welfare.",
-      "Failure mode examples": {
+      "failureModes": {
         "humans": "Influencers escalate polarization to stay visible.",
         "organizations": "A platform rolls back safety friction because it depresses engagement.",
         "experts": "Policy proposals that reduce harm are shelved for hurting KPIs.",
